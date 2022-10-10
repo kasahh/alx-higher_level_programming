@@ -3,12 +3,10 @@
 def safe_print_list(my_list=[], x=0):
     try:
         num = 0
-        for i in my_list:
-            if x > 0:
-                print(i, end = '')
-                num += 1
-                x -= 1
-    except Exception:
+        for i in range(x):
+            print("{}".format(my_list[i]), end = '')
+            num += 1
+    except IndexError:
         pass
-    print("\n")
+    print("")
     return num
