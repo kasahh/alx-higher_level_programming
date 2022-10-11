@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """class Square with instance size"""
 
+
 class Square:
     """class creates Squares using its size"""
 
