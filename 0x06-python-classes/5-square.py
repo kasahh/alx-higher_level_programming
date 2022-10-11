@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""creates class square with size propeerty, area and print_Square method getters and setters"""
+"""creates class square with size propeerty,getters and setters"""
 
 
 class Square:
